@@ -1,15 +1,5 @@
-import {
-    StyleSheet,
-    View,
-    FlatList,
-    Text,
-    Image,
-    TouchableOpacity,
-    SafeAreaView,
-    ScrollView,
-    Switch
-} from 'react-native';
-import * as React from 'react'
+import { StyleSheet, View, Text } from "react-native";
+import * as React from "react";
 
 export default function Card() {
     return (
@@ -18,7 +8,7 @@ export default function Card() {
                 <Text>okok</Text>
             </View>
         </View>
-    )
+    );
 }
 
 const styles = StyleSheet.create({
@@ -26,14 +16,12 @@ const styles = StyleSheet.create({
         borderRadius: 6,
         borderWidth: 2,
         elevation: 3,
-        backgroundColor: '#fff',
-        shadowOffset: { width: 1, height: 1},
-        shadowColor: '#333',
+        backgroundColor: "#fff",
+        shadowOffset: { width: 1, height: 1 },
+        shadowColor: "#333",
         shadowOpacity: 0.3,
         shadowRadius: 2,
         marginHorizontal: 4,
     },
-    cardContent: {
-
-    }
-})
+    cardContent: {},
+});
